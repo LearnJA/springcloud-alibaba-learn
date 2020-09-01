@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="common" />
+        <module name="consumer" />
+        <module name="gateway" />
+        <module name="mapper" />
+        <module name="OAuth" />
+        <module name="service" />
+        <module name="serviceImpl" />
+        <module name="transcational-service" />
+        <module name="transcational-serviceImpl" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="alibaba" target="1.5" />
+      <module name="common" target="1.8" />
+      <module name="consumer" target="1.8" />
+      <module name="gateway" target="1.8" />
+      <module name="mapper" target="1.8" />
+      <module name="OAuth" target="1.8" />
+      <module name="provider" target="1.8" />
+      <module name="service" target="1.8" />
+      <module name="serviceImpl" target="1.8" />
+      <module name="springcloud-alibaba-learn" target="1.8" />
+      <module name="transcational-service" target="1.8" />
+      <module name="transcational-serviceImpl" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
