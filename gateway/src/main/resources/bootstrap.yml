@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: gateway
+  cloud:
+    nacos:
+      discovery:
+        # nacos服务注册地址
+        server-addr: 192.168.10.152:8848
+      config:
+        # nacos配置中心地址
+        server-addr: 192.168.10.152:8848
+        #指定yml格式配置
+        file-extension: yaml
+        namespace: myself

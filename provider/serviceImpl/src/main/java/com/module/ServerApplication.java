@@ -6,12 +6,15 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
-@EnableAutoConfiguration(exclude = {DataSourceAutoConfiguration.class})
+/**
+ * 业务层
+ */
+@EnableAutoConfiguration(exclude = DataSourceAutoConfiguration.class)
 @EnableDiscoveryClient
 @SpringBootApplication
-public class OAuthApplication {
+public class ServerApplication {
 
     public static void main(String[] args){
-        SpringApplication.run(OAuthApplication.class, args);
+        SpringApplication.run(ServerApplication.class, args);
     }
 }
