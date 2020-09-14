@@ -1,4 +1,4 @@
-package com.common.code.enums;
+package com.module.code.enums;
 
 /**
  * 网络请求响应信息枚举

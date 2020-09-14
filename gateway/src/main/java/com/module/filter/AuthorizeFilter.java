@@ -1,10 +1,10 @@
 package com.module.filter;
 
 import com.alibaba.fastjson.JSON;
-import com.common.code.enums.ResponseCodeEnum;
-import com.common.code.exception.TokenAuthenticationException;
-import com.common.code.result.ResponseResult;
-import com.common.code.utils.JWTUtil;
+import com.module.code.enums.ResponseCodeEnum;
+import com.module.code.exception.TokenAuthenticationException;
+import com.module.code.result.ResponseResult;
+import com.module.code.utils.JWTUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Value;

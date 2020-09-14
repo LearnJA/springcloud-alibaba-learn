@@ -1,4 +1,4 @@
-package com.common.code.enums;
+package com.module.code.enums;
 
 import lombok.Data;
 

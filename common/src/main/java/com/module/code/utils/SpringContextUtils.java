@@ -1,4 +1,4 @@
-package com.common.code.utils;
+package com.module.code.utils;
 
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.DisposableBean;

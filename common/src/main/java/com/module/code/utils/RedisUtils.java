@@ -1,4 +1,4 @@
-package com.common.code.utils;
+package com.module.code.utils;
 
 import cn.hutool.core.collection.CollectionUtil;
 import cn.hutool.json.JSONArray;

@@ -1,6 +1,6 @@
-package com.common.code.result;
+package com.module.code.result;
 
-import com.common.code.enums.ResponseCodeEnum;
+import com.module.code.enums.ResponseCodeEnum;
 
 import java.io.Serializable;
 

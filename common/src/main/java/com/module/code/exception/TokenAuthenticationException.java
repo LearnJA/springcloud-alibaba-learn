@@ -1,4 +1,4 @@
-package com.common.code.exception;
+package com.module.code.exception;
 
 /**
  * token权限验证错误

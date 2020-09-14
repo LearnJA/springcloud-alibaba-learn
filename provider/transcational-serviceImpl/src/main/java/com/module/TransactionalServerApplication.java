@@ -11,7 +11,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 @SpringBootApplication
 public class TransactionalServerApplication {
 
-    public static void mian(String[] args) {
+    public static void main(String[] args) {
         SpringApplication.run(TransactionalServerApplication.class, args);
     }
 }

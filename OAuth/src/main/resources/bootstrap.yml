@@ -6,9 +6,11 @@ spring:
       discovery:
         # nacos服务注册地址
         server-addr: 192.168.10.152:8848
+        namespace: 99efc49b-9697-492b-8a8d-fb4a57629fa4
       config:
         # nacos配置中心地址
         server-addr: 192.168.10.152:8848
         #指定yml格式配置
         file-extension: yaml
-        namespace: myself
+        namespace: 99efc49b-9697-492b-8a8d-fb4a57629fa4
+        group: MODULE_GROUP

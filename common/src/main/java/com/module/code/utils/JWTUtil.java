@@ -1,4 +1,4 @@
-package com.common.code.utils;
+package com.module.code.utils;
 
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.JWTVerifier;
@@ -7,10 +7,9 @@ import com.auth0.jwt.exceptions.JWTDecodeException;
 import com.auth0.jwt.exceptions.SignatureVerificationException;
 import com.auth0.jwt.exceptions.TokenExpiredException;
 import com.auth0.jwt.interfaces.DecodedJWT;
-import com.common.code.enums.ResponseCodeEnum;
-import com.common.code.exception.TokenAuthenticationException;
+import com.module.code.enums.ResponseCodeEnum;
+import com.module.code.exception.TokenAuthenticationException;
 
-import javax.xml.crypto.Data;
 import java.util.Date;
 
 /**

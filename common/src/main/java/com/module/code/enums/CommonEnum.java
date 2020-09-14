@@ -1,4 +1,4 @@
-package com.common.code.enums;
+package com.module.code.enums;
 
 /**
  * 公共枚举
